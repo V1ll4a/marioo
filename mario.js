@@ -13,8 +13,8 @@ function piso(nPiso, altura){
    }
    texto=texto + "</p>"
    return texto;
-   }
 }
+
 let nPisos;
 do{
 //Lo que se hace
