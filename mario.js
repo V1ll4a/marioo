@@ -8,13 +8,11 @@ function piso(nPiso, altura){
    for(i=0;i<nEspacios; i++){
        texto=texto +"&nbsp;"
    }
-   ;for (let i = 0; i < nNumerales; i++) 
-   {
+   ;for (let i = 0; i < nNumerales; i++){
      texto += texto +"#";
    }
    {
    texto=texto + "</p>"
-   }
    return texto;
 }
 let nPisos;
