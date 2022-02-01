@@ -5,7 +5,7 @@ function piso(nPiso, altura){
   //correcto de espacios y de numerales de acuerdo 
   //al nPisos y a la altura.
    let texto= "<p>"
-   for(i=0;i<nEspacios; i++){
+   for(let i=0;i<nEspacios; i++){
        texto=texto +"&nbsp;"
    }
    ;for (let i = 0; i < nNumerales; i++){
@@ -14,6 +14,7 @@ function piso(nPiso, altura){
    {
    texto=texto + "</p>"
    return texto;
+   }
 }
 let nPisos;
 do{
